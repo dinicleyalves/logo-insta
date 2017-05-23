@@ -1,0 +1,73 @@
+/*
+	style.css - www.dinicleyalves.com.br
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+h1{
+	font-family: 'Orbitron', sans-serif;
+	text-align: 	center;
+}
+h2{
+	font-family: 'Orbitron', sans-serif;
+	text-align: 	center;
+}
+
+.insta-logomarca{
+	box-shadow: 0px 2px 11px rgba(0,0,0,0.5);
+	position: 	relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 55px;
+	background-color: #000;
+	margin:100px auto;
+
+	background:
+    radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+.insta-logomarca:after{
+	content: "";
+	position: absolute;
+	width: 115px;
+	height: 115px;
+	top: 30px;
+	left:30px;
+	border-radius: 33px;
+	border: 14px solid #fff
+}
+.insta-logomarca:before{
+	content: "";
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 55px;
+	right:50px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.cam{
+	position: 	absolute;
+	width: 50px;
+	height: 50px;
+	top: 63px;
+	left:63px;
+	border-radius: 50%;
+	border: 14px solid #fff;
+	transition:all .2s ease;
+}
+.insta-logomarca:hover .cam{
+	animation:flash .2s ease;
+}
+@keyframes flash{
+	to{background-color:#fff;}
+}
