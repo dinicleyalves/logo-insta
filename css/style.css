@@ -45,6 +45,7 @@ h2{
 	border-radius: 33px;
 	border: 14px solid #fff
 }
+
 .insta-logomarca:before{
 	content: "";
 	position: absolute;
@@ -71,3 +72,9 @@ h2{
 @keyframes flash{
 	to{background-color:#fff;}
 }
+
+/*
+
+downlaod and update code - please
+
+*/
